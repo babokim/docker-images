@@ -52,6 +52,26 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "react-rails"
+gem 'pry-byebug'
+gem 'rbtrace'
 
-gem 'pry'
+gem 'sidekiq'
+# gem 'sidekiq-failures'
+# gem 'sidekiq-qlimit', '~> 0' # https://github.com/BrainCom/sidekiq-qlimit
+
+gem 'redis-rails'
+
+gem 'redis-namespace'
+
+gem 'jwt'
+
+gem 'responders'
+
+#For ActiveRecord pagination
+gem 'kaminari'
+
+gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'swagger-docs'
+
+gem 'lograge'
